@@ -1,0 +1,111 @@
+@font-face {
+	font-family: "high School USA Sans";
+	src: url(../HighSchoolUSASans.ttf);
+}
+@-ms-viewport{
+	width: device-width;
+}
+#cover{
+	width: 100%;
+	position: absolute;
+	top:24%;
+	left: 0;
+	z-index: 1;
+	overflow: hidden;
+}
+#l1{
+	width: 100%;
+	height: 100%;
+}
+.rightrects, .leftrects{
+	float:left;
+	width:50%;
+	height:15%;
+	position:relative;
+	background-color:#666;
+	transform: translateX(-42vw);
+	z-index: -1;
+}
+.rightrects{
+	float: right;
+	transform: translateX(42vw);
+}
+.leftrects:hover, .rightrects:hover{
+	transform: translateX(0);
+	transition : transform 2s;
+}
+#sprt_ban
+{
+	font-size:13vw;
+	color:rgba(0,0,0,0.7);
+	top: -5%;
+	position: relative;
+	font-family: "high School USA Sans";
+
+}
+a{
+	text-decoration: none;
+}
+#l2{
+	position: absolute;
+	top: 0;
+	left: 0;
+	font-family: "high School USA Sans";
+}
+#l3{
+	background-color: rgba(0,0,0,0.95);
+	font-family: "high School USA Sans";
+	position: absolute;
+}
+#sfeed_ban
+{
+	font-size:13vw;
+	font-weight:bold;
+	color:#FFF;
+}
+
+#nitt_ban
+{
+	font-size:100px;
+	color:#CCC;
+}
+#capt_ban
+{
+	color:#090;
+	cursor:pointer;
+}
+
+#Ldr_click
+{
+	background-color:#090;
+	color:#FFF;
+	font-size:3vw;
+	cursor:pointer;
+}
+#up_bar
+{
+	color:#FFF;
+	text-align:right;
+	height:3vw;
+	width:100%;
+}
+#up_bar a{
+	text-decoration: none;
+}
+#up_bar span
+{
+	margin-right:1%;
+}
+table{
+	overflow: auto;
+	table-layout: fixed;
+	font-family: 
+}
+th{
+	background-color:#FC0;
+	color:#000
+}
+td{
+	width: 9.09vw;
+	text-align: center;
+}
