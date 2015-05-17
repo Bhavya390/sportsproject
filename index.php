@@ -13,9 +13,9 @@
 			<center><div id="nitt_ban">NATIONAL INSTITUTE OF TECHNOLOGY, TRICHY</div></center>
 	    	<center><div id="sfeed_ban">SPORTS</div></center>
 	    	</br>
-<!--	    	<center><a href="./hpage.php" id="capt_ban">Click to enter</a></center> -->
+<!--	<center><a href="./hpage.php" id="capt_ban">Click to enter</a></center> -->
 	    	</br></br>
-	    	<center><a href="./rank.php" id="Ldr_click">SPORTS FETE'15 LEADERBOARD</a></center>	
+	    	<center><a href="./hpage.php" id="Ldr_click">Click to enter</a></center>	
 		</div>
 </body>
 </html>
